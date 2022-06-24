@@ -1,0 +1,41 @@
+  1  apt update
+    2  apt insatll docker.io
+    3  apt install docker.io
+    4  service docker status
+    5  ls
+    6  docker pull centos
+    7  docker pull nginx
+    8  docker run -t
+    9*
+   10  docker run -t 7425d3a7c478
+   11  vi Dockerfile
+   12  history
+   13  docker run -it 7425d3a7c478
+   14  docker run -it 7425d3a7c478 bash
+   15  ls
+   16  history
+   17  docker images
+   18  docker run -it --name doc nginx
+   19  docker run -it --name doc nginx  .
+   20  docker ps
+   21  docker run -it --name doc nginx  bash
+   22  docker run -it   nginx  bash
+   23  ls
+   24  docker ps
+   25  docker images
+   26  docker images 5d0da3dc9764
+   27  docker ps
+   28  docker  run -itd  5d0da3dc9764
+   29  docker ps
+   30  history
+   31  ls
+   32  docker rm $(docker ps -a )
+   33  Vi Dockerfile
+   34  vi Dockerfile
+   35  cat Dockerfile
+   36  ls
+   37  docker run -itd --name doc nginx
+   38  docker ps
+   39  docker run -it -d -p 90:90 --name container1 nginx /bin/bash
+   40  docker inspect
+
